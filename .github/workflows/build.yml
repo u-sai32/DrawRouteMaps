@@ -20,5 +20,5 @@ jobs:
     - name: 'Upload AAR to Artifacts'
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: drawroutemaps-release.aar
-        path: drawroutemaps/build/outputs/aar/drawroutemaps-release.aar
+        name: drawroutemap-release.aar
+        path: drawroutemap/build/outputs/aar/drawroutemap-release.aar
