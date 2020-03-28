@@ -19,7 +19,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    cimplementation "com.android.support:appcompat-v7:$support_version"
+    cimplementation "com.android.support:appcompat-v7:28.0.0"
     implementation "com.android.support:support-v4:$support_version"
     implementation "com.android.support:animated-vector-drawable:$support_version"
     implementation "com.android.support:support-media-compat:$support_version"
