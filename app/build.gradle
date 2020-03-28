@@ -18,13 +18,13 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile "com.android.support:appcompat-v7:$support_version"
-    compile "com.android.support:support-v4:$support_version"
-    compile "com.android.support:animated-vector-drawable:$support_version"
-    compile "com.android.support:support-media-compat:$support_version"
-    compile "com.google.android.gms:play-services-maps:$play_service_version"
-    compile project(':drawroutemap')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    cimplementation "com.android.support:appcompat-v7:$support_version"
+    implementation "com.android.support:support-v4:$support_version"
+    implementation "com.android.support:animated-vector-drawable:$support_version"
+    implementation "com.android.support:support-media-compat:$support_version"
+    implementation "com.google.android.gms:play-services-maps:$play_service_version"
+    implementation project(':drawroutemap')
 }
 
 apply plugin: 'com.google.gms.google-services'
